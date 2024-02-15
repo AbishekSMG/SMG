@@ -124,3 +124,70 @@ a{
     text-align: center;
     font-size: 30px;
 }
+@media screen and (max-width: 600px)
+{
+    .text{
+        height: 100%;
+    }
+
+    .navbar{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 15px;
+        background-color:silver; 
+    }
+
+    .icon{
+        font-size: 15px;
+    }
+    .logo{
+        width: 20px;
+        height: 30px;
+        background-image: none;
+    }
+    *{
+        text-transform: capitalize;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .homeicon{
+        margin-left: 5PX;
+        margin-right: 0px;
+    }
+   .accicon{
+    margin-left: 10px;
+    margin-right: 0px;
+   }
+   
+   .REPORTICON{
+    margin-left: 10px;
+    margin-right: 0px;
+   }
+   .studlogo{
+    margin-left: 10px;
+    margin-right: 0px;
+   }
+   .trademark{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;  
+    left: 5px;
+    top: 3px;
+}
+.contacticon{
+    font-size: 0;
+    
+}
+.contact{
+    font-size: 0;
+}
+
+
+}
